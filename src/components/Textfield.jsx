@@ -1,5 +1,7 @@
 import TextField from "@mui/material/TextField";
 import Stack from "@mui/material/Stack";
+import Button from "@mui/material/Button";
+import MenuItem from "@mui/material/MenuItem";
 
 export default function Textfield() {
   return (
@@ -7,7 +9,7 @@ export default function Textfield() {
       <TextField
         label="Enter Your Name"
         variant="outlined"
-        className="home-textfield"
+        
         placeholder="Name"
          slotProps={{
           input: {
@@ -21,7 +23,7 @@ export default function Textfield() {
       <TextField
         label="Age"
         variant="outlined"
-        className="home-textfield"
+        
         placeholder="Age"
         slotProps={{
           input: {
@@ -35,9 +37,7 @@ export default function Textfield() {
       <TextField
         
         type="date"
-        variant="outlined"
-        
-        placeholder="Name"
+       
          slotProps={{
           input: {
             sx: {
@@ -46,6 +46,26 @@ export default function Textfield() {
           },
         }}
       />
+
+      <TextField
+        select
+        label="Your Role"
+        variant="outlined"
+        defaultValue=""
+      >
+        <MenuItem value="">Select an option</MenuItem>
+        <MenuItem value="student">Student</MenuItem>
+        <MenuItem value="developer">Developer</MenuItem>
+        <MenuItem value="designer">Designer</MenuItem>
+      </TextField>
+
+       <Button
+        variant="contained"
+        color="primary"
+        sx={{ mt: 1 }}
+      >
+        Submit
+      </Button>
 
     </Stack>
   );
