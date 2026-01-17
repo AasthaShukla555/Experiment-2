@@ -21,9 +21,9 @@ Material-UI provides ready-to-use React components for building modern, responsi
 
 -Contact: Rating, contact info.
 
--Implement navigation using React Router.
+4)Implement navigation using React Router.
 
--Run and test the app for correct rendering and navigation.
+5)Run and test the app for correct rendering and navigation.
 
 -> Learning Outcomes:
 
