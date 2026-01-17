@@ -1,16 +1,38 @@
-# React + Vite
+-> Aim: 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Design UI using component libraries (Material UI )
 
-Currently, two official plugins are available:
+-> Theory:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Material-UI provides ready-to-use React components for building modern, responsive UIs. SPA allows smooth page navigation without reloading. Components used capture user input, selections, and ratings effectively.Theory:
+Material-UI provides ready-to-use React components for building modern, responsive UIs. SPA allows smooth page navigation without reloading. Components used capture user input, selections, and ratings effectively.
 
-## React Compiler
+-> Steps:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1)Set up React project and install MUI & React Router.
 
-## Expanding the ESLint configuration
+2)Create Home, About, and Contact pages.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3)Add components:
+
+-Home: TextField (name, age), Checkbox, Button.
+
+-About: TextField (name, description), Select, Button.
+
+-Contact: Rating, contact info.
+
+-Implement navigation using React Router.
+
+-Run and test the app for correct rendering and navigation.
+
+-> Learning Outcomes:
+
+-Understand the integration of Material-UI components into a React SPA.
+
+-Learn to create navigable pages using React Router.
+
+-Gain practical knowledge of using TextField, Button, Select, Checkbox, and Rating components.
+
+-Improve UI design skills using component libraries.
+
+-Learn to handle basic interactivity and user inputs in a SPA.
