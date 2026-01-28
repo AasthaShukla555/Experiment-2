@@ -1,4 +1,4 @@
--> Aim: 
+-> **Aim**: 
 
 Design UI using component libraries (Material UI )
 
@@ -35,4 +35,4 @@ Material-UI provides ready-to-use React components for building modern, responsi
 
 -Improve UI design skills using component libraries.
 
--Learn to handle basic interactivity and user inputs in a SPA.
+
