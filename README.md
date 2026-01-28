@@ -2,12 +2,12 @@
 
 Design UI using component libraries (Material UI )
 
--> Theory:
+## -> **Theory**:
 
 Material-UI provides ready-to-use React components for building modern, responsive UIs. SPA allows smooth page navigation without reloading. Components used capture user input, selections, and ratings effectively.Theory:
 Material-UI provides ready-to-use React components for building modern, responsive UIs. SPA allows smooth page navigation without reloading. Components used capture user input, selections, and ratings effectively.
 
--> Steps:
+## -> **Steps**:
 
 1)Set up React project and install MUI & React Router.
 
@@ -25,7 +25,7 @@ Material-UI provides ready-to-use React components for building modern, responsi
 
 5)Run and test the app for correct rendering and navigation.
 
--> Learning Outcomes:
+## -> **Learning Outcomes**:
 
 -Understand the integration of Material-UI components into a React SPA.
 
